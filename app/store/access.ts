@@ -40,7 +40,7 @@ export const useAccessStore = create<AccessControlStore>()(
       hideBalanceQuery: false,
       disableGPT4: false,
 
-      openaiUrl: "https://gptgod.site/api",
+      openaiUrl: "https://gptgod.vip/api",
 
       enabledAccessControl() {
         get().fetch();
