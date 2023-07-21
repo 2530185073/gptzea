@@ -34,13 +34,13 @@ export const useAccessStore = create<AccessControlStore>()(
   persist(
     (set, get) => ({
       token: "",
-      accessCode: "",
+      accessCode: "sk-5tzYe0TouKIYH2CA82GDFTp2wRuGS6o13ncTA15F",
       needCode: true,
       hideUserApiKey: false,
       hideBalanceQuery: false,
       disableGPT4: false,
 
-      openaiUrl: DEFAULT_OPENAI_URL,
+      openaiUrl: "https://gptgod.site/api",
 
       enabledAccessControl() {
         get().fetch();
